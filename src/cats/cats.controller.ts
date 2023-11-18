@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Post, Req, Res } from '@nestjs/common';
 import { CatsService } from './cats.service';
-import { Cat } from './models/Cat';
+import { Cat } from './interfaces/Cat';
 
 @Controller('cats')
 export class CatsController {
